@@ -233,6 +233,11 @@ subtext@6.x.x:
     pez "4.x.x"
     wreck "14.x.x"
 
+supervisor@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.npm.taobao.org/supervisor/download/supervisor-0.12.0.tgz#de7e6337015b291851c10f3538c4a7f04917ecc1"
+  integrity sha1-3n5jNwFbKRhRwQ81OMSn8EkX7ME=
+
 teamwork@3.x.x:
   version "3.2.0"
   resolved "https://registry.npm.taobao.org/teamwork/download/teamwork-3.2.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fteamwork%2Fdownload%2Fteamwork-3.2.0.tgz#27916edab815459c1a4686252eb18fb5925f49fa"
