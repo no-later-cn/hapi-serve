@@ -83,6 +83,11 @@ cryptiles@4.x.x:
   dependencies:
     boom "7.x.x"
 
+env2@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.npm.taobao.org/env2/download/env2-2.2.2.tgz#1022b7cc69fadfcaba806745f0c3e4d85f3e9305"
+  integrity sha1-ECK3zGn638q6gGdF8MPk2F8+kwU=
+
 hapi@^18.1.0:
   version "18.1.0"
   resolved "https://registry.npm.taobao.org/hapi/download/hapi-18.1.0.tgz#98a2a5a8f37a41eb196bdad9727f66b1fbca5fec"

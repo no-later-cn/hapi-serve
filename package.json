@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"supervisor app.js"
+    "dev": "supervisor app.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "env2": "^2.2.2",
     "hapi": "^18.1.0",
     "supervisor": "^0.12.0"
   }
