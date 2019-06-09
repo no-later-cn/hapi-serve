@@ -1,12 +1,11 @@
 // app.js
 const Hapi = require('hapi');
-
-const server = new Hapi.Server();
 // 配置服务器启动 host 与端口
-server.connection({
-  port: 3000,
-  host: '127.0.0.1',
-});
+
+const server = new Hapi.Server({
+    port: 3000,
+    host: '127.0.0.1'
+  });
 
 const init = async () => {
   server.route([
@@ -15,7 +14,7 @@ const init = async () => {
       method: 'GET',
       path: '/',
       handler: (request, reply) => {
-        reply('hello hapi');
+        return 'hello hapi'
       },
     },
   ]);
