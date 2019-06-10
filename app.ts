@@ -18,6 +18,7 @@ const init = async () => {
   // 启动服务
   await server.start();
   console.log(`Server running at: ${server.info.uri}`);
+  console.log(`Swagger Document running at: ${server.info.uri}/documentation`);
 };
 
 init();
