@@ -18,7 +18,11 @@ module.exports = [
             .description('每页的条目数'),
           page: Joi.number().integer().min(1).default(1)
             .description('页码数'),
-        }
+        },
+        // 适用于 header 额外字段约束的 headers 验证
+        headers: Joi.object({
+          authorization: Joi.string().required(),
+        }).unknown()
       }
     },
   },
